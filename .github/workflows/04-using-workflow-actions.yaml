@@ -1,5 +1,5 @@
 name: 04 - using workflow actions
-on: 
+on:
     push:
     workflow_dispatch:
 
@@ -14,8 +14,8 @@ jobs:
               uses: actions/setup-node@v3
               with:
                 node-version: '20.x'
-
+                
             - name: Install Dependencies
               run: npm ci
-              working-directory: using-workflow-actions/react-app 
-
+              working-directory: 'using-workflow-actions/react-app'
+        

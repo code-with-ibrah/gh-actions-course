@@ -1,4 +1,4 @@
-name: using workflow actions
+name: 04 - using workflow actions
 on: 
     push:
     workflow_dispatch:
@@ -19,4 +19,3 @@ jobs:
               run: npm ci
               working-directory: using-workflow-actions/react-app 
 
-              
